@@ -6,6 +6,10 @@ const server = createServer((req, res) => {
     message: "hello world!",
     success: req.url === "/"
   }));
+  res.write(JSON.stringify({
+    message: "healthy:)",
+    success: req.url === "/health"
+  }));
   res.end();
 });
 
