@@ -13,6 +13,7 @@ RUN cd /work && npm run build
 FROM mhart/alpine-node:slim
 LABEL org.opencontainers.image.source="https://github.com/arch-inc/amazon-lightsail-containers-test"
 LABEL maintainer="Jun KATO <jun@archinc.jp>"
+LABEL editor="Seiki Tokunaga <otokuna46@gmail.com>"
 
 WORKDIR /app
 COPY --from=builder /work/dist/index.js .
