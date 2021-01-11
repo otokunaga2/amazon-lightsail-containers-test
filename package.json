@@ -13,7 +13,11 @@
     "type": "git",
     "url": "git+https://github.com/arch-inc/amazon-lightsail-containers-test.git"
   },
-  "keywords": ["http", "server", "docker"],
+  "keywords": [
+    "http",
+    "server",
+    "docker"
+  ],
   "author": "Jun Kato <i@junkato.jp> (https://junkato.jp)",
   "license": "MIT",
   "bugs": {
